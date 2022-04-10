@@ -21,6 +21,8 @@ const bull = (
 export default function BasicCard(props) {
 
 	// useEffect(() => {
+		
+	
 	// 	// Update the document title using the browser API
 	// 	fetch(
 	// 	  "https://jsonplaceholder.typicode.com/users")
