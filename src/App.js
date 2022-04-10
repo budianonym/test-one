@@ -1,10 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import PrimarySearchAppBar from './components/PrimarySearchAppBar';
+import Layout from './components/Layout';
+import SimpleContainer from './components/SimpleContainer';
+import BasicGrid from './components/BasicGrid';
+import BasicStack from './components/BasicStack';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <PrimarySearchAppBar/>
+      {/* <Layout/> */}
+      {/* <SimpleContainer> */}
+      <div className="Container-b">
+      {/* <BasicStack/> */}
+      <BasicGrid/>
+      </div>
+      {/* </SimpleContainer> */}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +30,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
